@@ -6,7 +6,18 @@ namespace exercise_09
     {
         public static void Main(string[] args)
         {
-            // Write your code here:
+           //create a small conversation. 
+           //ask question
+           Console.WriteLine("Hello, how are you?");
+           //create a string variable and get users input 
+           string answer1 = Console.ReadLine();
+            //add another question
+           Console.WriteLine("That's interesting, tell me more.");
+           //create a string variable and get users input 
+           string answer2 = Console.ReadLine();
+           //end the conversation 
+           Console.WriteLine("Thank you for sharing!");
+          
 
         }
     }
