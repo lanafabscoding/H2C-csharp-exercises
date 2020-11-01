@@ -7,7 +7,10 @@ namespace exercise_07
         public static void Main(string[] args)
         {
             Console.WriteLine("Give input!");
-            // Write your code here:
+            // set the users input to a variable
+            string userInput = Console.ReadLine();
+            //print out the users input 3 times
+            Console.WriteLine(userInput + "\n" + userInput + "\n" + userInput + "\n");
             
         }
     }
