@@ -6,7 +6,23 @@ namespace exercise_28
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+       // ask a number from the user
+      Console.WriteLine("How old are you?");
+      //Deaclare and assing the input as a string
+      string userInput = Console.ReadLine();
+     //Convert string to integer type
+     int age = Convert.ToInt32(userInput);
+     //show the users input 
+     if (age <= 17)
+     {
+         Console.WriteLine("You are under age!");
+     }
+     else
+     {
+         Console.WriteLine("You are and adult!");
+     }
+    
+
 
     }
   }
