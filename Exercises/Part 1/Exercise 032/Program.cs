@@ -6,8 +6,19 @@ namespace exercise_32
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
-
+      // ask a string from the user
+      Console.WriteLine("Speak, friend, and enter!");
+     //declare and assign the input as a string 
+     string userInput = Console.ReadLine();
+     //let's create a if else clause
+     if (userInput == "Mellon")
+     {
+        Console.WriteLine("Welcome, friend");
+     }
+     else 
+     {
+        Console.WriteLine("They've got a cave troll!");
+    }
     }
   }
 }
