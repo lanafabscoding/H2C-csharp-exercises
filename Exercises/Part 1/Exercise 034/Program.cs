@@ -6,8 +6,21 @@ namespace exercise_34
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      
+     while (true) 
+     {
+      //ask if the user wants to continue
+      Console.WriteLine("Do you want to continue?");
+      //set the answer to a string 
+      string input = Console.ReadLine();
+      if (input =="no") 
+       {
+         break;
+       }
+       
 
+     }
+   
     }
   }
 }
