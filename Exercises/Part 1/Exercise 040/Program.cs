@@ -25,12 +25,12 @@ namespace exercise_40
     // If the input is other than 0
     else
     {
-        // Count the numbers
+        // Count the sum of numbers
         sum = sum + number;
+        // count the total amount of numbers
         amount = amount + 1;
     }
 
-    
      
 }
 
