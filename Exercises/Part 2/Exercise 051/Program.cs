@@ -7,20 +7,26 @@ namespace exercise_51
     public static void Main(String[] args)
     {
       // Call your method here:
-      {
+      // I do not understand this. It makes me sad.
+      
        
        PrintUntilNumber(5);
-      }
+      
 
     }
 
     // Write your method here:
-     public static void PrintUntilNumber(int number)
-
+     public static void PrintUntilNumber(int numberOfTimes)
       {
-        int i =0; 
-        while (i<number)
+            int i = 1; 
+            
+        while (i <= numberOfTimes) {
+             
+        
+      
+      Console.WriteLine(i);
+       i++;
       }
-      Console.Writeline(i);
-            }
+     }
+  }
 }
