@@ -7,10 +7,10 @@ namespace exercise_51
     public static void Main(String[] args)
     {
       // Call your method here:
-      // I do not understand this. It makes me sad.
+     
       
        
-       PrintUntilNumber(5);
+       PrintUntilNumber(3);
       
 
     }
